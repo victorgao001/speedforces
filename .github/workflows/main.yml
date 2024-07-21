@@ -1,5 +1,6 @@
 name: Build and Deploy
-
+env:
+   CI: ""
 on:
   push:
     branches: [ "main" ]
